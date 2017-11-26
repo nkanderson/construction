@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Under Construction</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- we're not going to make users get another file from the server
+             when it's all just... under construction -->
+        <!-- <link rel="stylesheet" href="main.css"> -->
+        <style>
+          body {
+              margin: 0;
+              background: url('photo.jpg');
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 100vh;
+          }
+
+          video {
+              pointer-events: none;
+              width: 100%;
+              height: 100%;
+              position: fixed;
+              object-fit: cover;
+          }
+
+          .msg {
+              padding-top: 30px;
+              color: #fff;
+              text-align: center;
+              font-family: monospace;
+              font-size: 15px;
+          }
+
+          .msg a {
+              color: #fff;
+          }
+        </style>
+    </head>
+    <body>
+      <video src="video.webm" autoplay muted loop>
+          Sorry, your browser doesn't support embedded videos, 
+          but don't worry, you can <a href="video.webm">download it</a>
+          and watch it with your favorite video player!
+      </video>
+      <div class="msg">
+          <p>Oof, this site is <a href="http://www.cs.utah.edu/~gk/atwork/">UNDER CONSTRUCTION</a>. How embarrassing!</p>
+          <p>For now, you can see what I'm up to on <a href="https://github.com/nkanderson">github</a>.
+        </div>
+    </body>
+</html>
